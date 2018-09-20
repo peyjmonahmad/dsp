@@ -23,4 +23,5 @@ CohenEffectSize(others_weight,first_weight)
 
 Cohen's D difference between groups = 0.088672927072602
 
-Using Cohen's d for the weight of first babies compared to other babies, the differencce in means is about 0.089 standard deviations.  This difference is about 3x greater than the difference in preganancy length.  Overall, it is tough to tell if it is a signficant difference, but it is certainly more signficant than the preganany length difference."
+Using Cohen's d for the weight of first babies compared to other babies, the differencce in means is about 0.089 standard deviations.  This difference is about 3x greater than the difference in preganancy length. Overall, it is tough to tell if it is a signficant difference, but it is certainly more signficant than
+ the preganany length difference.
