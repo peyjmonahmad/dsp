@@ -74,7 +74,7 @@ What does `xargs` do? Give an example of how to use it.
 
 > > Example
 'xargs' converts input from standard input into a command.
-Ex: xargs can effecitively find file names
+Ex: xargs can effectively find file names
 xargs -l find -name
 
 
