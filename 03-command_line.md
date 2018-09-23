@@ -20,9 +20,19 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
 
----
+pwd 
+mkdir
+rmdir
+ls
+ls -a
+cp
+touch 
+rm 
+echo 
+cd 
+which
 
 ### Q2.  List Files in Unix   
 
@@ -35,24 +45,37 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+'ls' - list of files in directory
+'ls -a' - shows hidden files as well
+'ls -l' - shows file information as well as the permissions given
+'ls -lh' - shows files that human readable format
+'ls -lah'
+'ls -t' - sorts files by modification time
 
----
+
+
 
 ### Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
 
----
+ls -a : I would like to see all files
+ls -t : Newest files should be seen first
+ls -d : Sometimes it is convenient to just see directories
+ls -l : Useful to see all information '
+ls -x : Improves readability 
 
 ### Q4.  Xargs   
 
 What does `xargs` do? Give an example of how to use it.
 
 > > Example
+'xargs' converts input from standard input into a command.
+Ex: xargs can effecitively find file names
+xargs -l find -name
 
 
- 
 
