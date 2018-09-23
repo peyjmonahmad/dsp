@@ -23,15 +23,25 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > > 
 
 pwd 
+
 mkdir
+
 rmdir
+
 ls
+
 ls -a
+
 cp
+
 touch 
+
 rm 
+
 echo 
+
 cd 
+
 which
 
 ### Q2.  List Files in Unix   
@@ -47,10 +57,15 @@ What do the following commands do:
 
 > > 
 'ls' - list of files in directory
+
 'ls -a' - shows hidden files as well
+
 'ls -l' - shows file information as well as the permissions given
+
 'ls -lh' - shows files that human readable format
+
 'ls -lah'
+
 'ls -t' - sorts files by modification time
 
 
@@ -63,9 +78,13 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 > > 
 
 ls -a : I would like to see all files
+
 ls -t : Newest files should be seen first
+
 ls -d : Sometimes it is convenient to just see directories
+
 ls -l : Useful to see all information '
+
 ls -x : Improves readability 
 
 ### Q4.  Xargs   
@@ -73,7 +92,9 @@ ls -x : Improves readability
 What does `xargs` do? Give an example of how to use it.
 
 > > Example
+
 'xargs' converts input from standard input into a command.
+
 Ex: xargs effectively finds file names
 xargs -l find -name
 
